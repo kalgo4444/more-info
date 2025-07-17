@@ -1,0 +1,46 @@
+.skeleton {
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  &__card {
+    padding: 10px 5px;
+  }
+  &__img {
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #ddd;
+  }
+  &__item {
+    width: 70%;
+    height: 10px;
+    border-radius: 10px;
+    background: #ddd;
+    margin: 5px 0;
+    &:nth-child(3) {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .skeleton {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 950px) {
+  .skeleton {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .skeleton {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 360px) {
+  .skeleton {
+    grid-template-columns: auto;
+  }
+}

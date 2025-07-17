@@ -1,0 +1,20 @@
+.footer {
+  width: 100%;
+  background: #222;
+  padding: 1rem 0;
+  &__wrapper {
+    color: #eee;
+    h2 {
+      font-size: 2rem;
+    }
+    p,
+    i {
+      margin: 1rem 0;
+      font-size: 1rem;
+    }
+    strong {
+      font-size: 1.25rem;
+      display: block;
+    }
+  }
+}
