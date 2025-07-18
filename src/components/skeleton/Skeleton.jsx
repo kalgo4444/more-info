@@ -3,7 +3,7 @@ import './skeleton.scss'
 const Skeleton = () => {
   return (
     <div className="skeleton">
-      {Array(30)
+      {Array(10)
         .fill()
         .map((_, inx) => (
           <div key={inx} className="skeleton__card">
