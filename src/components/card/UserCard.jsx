@@ -14,7 +14,7 @@ const UserCard = ({ date }) => {
           className="card"
         >
           <div className="card__img">
-            <img src={image} alt="card image" />
+            <img src={image} alt="card image" loading="lazy" />
             <span className="card__category">{item.username}</span>
             <span className="card__rating">{item.id}</span>
           </div>

@@ -13,7 +13,7 @@ const Card = ({ date }) => {
           className="card"
         >
           <div className="card__img">
-            <img src={item.image} alt="" />
+            <img src={item.image} alt="Card image" loading="lazy" />
             <span className="card__category">{item.category}</span>
             <span className="card__rating">{item.rating.rate}</span>
           </div>
